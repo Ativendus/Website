@@ -19,12 +19,6 @@ import com.vaadin.flow.theme.lumo.Lumo;
 import net.nitrin.website.security.SecurityService;
 
 @Route
-@Theme(themeFolder = "theme", variant = Lumo.DARK)
-@PageTitle("NITRIN | Mats Fischer")
-@PWA(name = "Nitrin Application",
-        shortName = "Nitrin App",
-        description = "This is an production Nitrin application.",
-        enableInstallPrompt = false)
 public class MainView extends AppLayout {
 
     public MainView(SecurityService securityService) {
